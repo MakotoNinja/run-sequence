@@ -5,8 +5,8 @@
 	"description": "Test bed to run sequences and Farmwares.",
 	"version": "1.0.1",
 	"min_os_version_major": 6,
-	"url": "https://raw.githubusercontent.com/MakotoNinja/random-move-relative/master/manifest.json",
-	"zip": "https://github.com/MakotoNinja/random-move-relative/archive/master.zip",
+	"url": "https://raw.githubusercontent.com/MakotoNinja/run-sequence/master/manifest.json",
+	"zip": "https://github.com/MakotoNinja/run-sequence/archive/master.zip",
 	"executable": "python",
 	"args": ["run-sequence-master/script.py"],
 	"config": [
