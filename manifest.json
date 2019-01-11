@@ -1,20 +1,16 @@
 {
-	"package": "Random Move Relative",
+	"package": "Run Sequence",
 	"language": "python",
 	"author": "MakotoNinja",
-	"description": "Random Move Relative.",
+	"description": "Test bed to run sequences and Farmwares.",
 	"version": "1.0.1",
 	"min_os_version_major": 6,
 	"url": "https://raw.githubusercontent.com/MakotoNinja/random-move-relative/master/manifest.json",
 	"zip": "https://github.com/MakotoNinja/random-move-relative/archive/master.zip",
 	"executable": "python",
-	"args": ["random-move-relative-master/script.py"],
+	"args": ["run-sequence-master/script.py"],
 	"config": [
-		{"name": "x_lo", "label": "X Low:", "value": 5 },
-		{"name": "x_hi", "label": "X HIGH:", "value": 10 },
-		{"name": "y_lo", "label": "Y Low:", "value": 5 },
-		{"name": "y_hi", "label": "Y HIGH:", "value": 10 },
-		{"name": "z_lo", "label": "Z Low:", "value": 0 },
-		{"name": "z_hi", "label": "Z HIGH:", "value": 0 }
+		{"name": "sequence_name", "label": "Sequence Name", "value": "" },
+		{"name": "farmware_name", "label": "Farmware Name", "value": "" }
 	]
 }
