@@ -12,7 +12,7 @@ from farmware_tools import get_config_value
 
 try:
 	api_token = os.environ['API_TOKEN']
-	device.log(api_token)
+	device.log('API API_TOKEN: {}'.format(api_token))
 except KeyError:
 	api_token = 'Not Set'
 	device.log('API_TOKEN not set', message_type='error', title='Class API:api_setup')
