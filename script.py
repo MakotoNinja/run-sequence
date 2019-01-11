@@ -9,8 +9,8 @@ from farmware_tools import device
 from farmware_tools import app
 from farmware_tools import get_config_value
 
-s_name = str(get_config_value('Run Sequence', 'sequence_name'))
-f_name = str(get_config_value('Run Sequence', 'farmware_name'))
+s_name = 'one'#get_config_value('Run Sequence', 'sequence_name')
+f_name = 'two'#get_config_value('Run Sequence', 'farmware_name')
 
 log = "Sequence Name: {}, Farmware Name: {}".format(s_name, f_name)
 device.log(log, 'info', ['toast'])
