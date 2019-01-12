@@ -3,7 +3,7 @@
 	"language": "python",
 	"author": "MakotoNinja",
 	"description": "Test bed to run sequences and Farmwares.",
-	"version": "1.0.9",
+	"version": "1.0.10",
 	"min_os_version_major": 6,
 	"url": "https://raw.githubusercontent.com/MakotoNinja/run-sequence/master/manifest.json",
 	"zip": "https://github.com/MakotoNinja/run-sequence/archive/master.zip",
