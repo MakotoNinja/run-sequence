@@ -16,7 +16,7 @@ f_name = get_config_value('Run Sequence', 'farmware_name', str)
 
 sequence_id = app.find_sequence_by_name(name = s_name)
 
-log = "Sequence Name: {}, Farmware Name: {}".format(s_name, f_name)
+log = "Sequence ID: {}".format(sequence_id)
 device.log(log, 'info', ['toast'])
 
-device.execute(sequence_id)
+#device.execute(sequence_id)
