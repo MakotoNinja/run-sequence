@@ -14,9 +14,10 @@ from farmware_tools import get_config_value
 s_name = get_config_value('Run Sequence', 'sequence_name', str)
 f_name = get_config_value('Run Sequence', 'farmware_name', str)
 
-try:
-	sequence_id = app.find_sequence_by_name(name = s_name)
-except:
-	device.log("Couldn't find a sequwnce name: {}".format(s_name), 'error', ['toast'])
+if s_name not None or len(''.join(s_name.split())) > 0:
+	try:
+		sequence_id = app.find_sequence_by_name(name = s_name)
+	except:
+		device.log("Couldn't find a sequwnce name: {}".format(s_name), 'error', ['toast'])
 
 #device.execute(sequence_id)
