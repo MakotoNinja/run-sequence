@@ -3,7 +3,7 @@
 	"language": "python",
 	"author": "MakotoNinja",
 	"description": "Test bed to run sequences and Farmwares.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"min_os_version_major": 6,
 	"url": "https://raw.githubusercontent.com/MakotoNinja/run-sequence/master/manifest.json",
 	"zip": "https://github.com/MakotoNinja/run-sequence/archive/master.zip",
@@ -12,6 +12,6 @@
 	"config": [
 		{"name": "sequence_name", "label": "Sequence Name", "value": " " },
 		{"name": "farmware_name", "label": "Farmware Name", "value": " " },
-		{"name": "farmware_loop", "label": "Loop Farmware", "value": 10 }
+		{"name": "loop_farmware", "label": "Loop Farmware", "value": 10 }
 	]
 }
