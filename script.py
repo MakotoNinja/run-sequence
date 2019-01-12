@@ -26,9 +26,5 @@ if len(''.join(f_name.split())) > 0:
 	device.execute_script(label = f_name)
 else :
 	device.log("No text was entered in farmware input.", 'error', ['toast'])
-#device.execute(sequence_id)
 
-device.move_relative(100, 100, 0, 100)
-device.move_relative(-100, -100, 0, 100)
-device.move_relative(-100, 100, 0, 100)
-device.move_relative(100, -100, 0, 100)
+# device.execute(sequence_id)
