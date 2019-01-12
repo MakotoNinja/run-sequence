@@ -18,7 +18,12 @@ if len(''.join(s_name.split())) > 0:
 	try:
 		sequence_id = app.find_sequence_by_name(name = s_name)
 	except:
-		device.log("Couldn't find a sequwnce name: {}".format(s_name), 'error', ['toast'])
+		device.log("Couldn't find a sequence with name: {}".format(s_name), 'error', ['toast'])
 else :
-	device.log("No text was entered.", 'error', ['toast'])
+	device.log("No text was entered in sequence input.", 'error', ['toast'])
+
+if len(''.join(f_name.split())) > 0:
+	pass
+else :
+	device.log("No text was entered in farmware input.", 'error', ['toast'])
 #device.execute(sequence_id)
