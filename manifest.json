@@ -11,7 +11,7 @@
 	"args": ["run-sequence-master/script.py"],
 	"config": [
 		{"name": "sequence_name", "label": "Sequence Name", "value": " " },
-		{"name": "farmware_name", "label": "Farmware Name", "value": " " }
+		{"name": "farmware_name", "label": "Farmware Name", "value": " " },
 		{"name": "farmware_loop", "label": "Loop Farmware", "value": 10 }
 	]
 }
